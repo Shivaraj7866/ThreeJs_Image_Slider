@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    overflow: hidden;
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+}
+
+.canvas{
+    width: 100vw;
+    height: 100vh;
+}
+
+.content{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    z-index: 1;
+    /* margin-left: 10rem; */
+}
+
+h1{
+    font-size: 4rem;
+    font-weight: lighter;
+    margin-left: 20vw;
+    margin-right: 50vw;
+    transition: all 0.5s ease;
+}
+
+h1:hover{
+    font-size: 7rem;
+    font-weight: 900;
+    
+    
+    /* margin-left: 10vw; */
+}
